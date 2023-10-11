@@ -302,6 +302,12 @@ header {
     padding: 35px 0;
     display: flex;
     flex-wrap: wrap;
+    color: #fff;
+}
+
+.social-proof-container{
+    display: flex;
+    margin: 0 auto;
 }
 
 /*.social-proof.proof1{
@@ -780,16 +786,26 @@ header {
           height: 150px;
         }
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 300px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 300px;
+        }
+
+        .social-proof-img-box {
+          height: 150px;  
+        }
+
         .social-proof-content-2cols {
           width: 100%;
         }
 
         .social-proof.proof2 {
           padding-bottom: 65%;
-        }
-
-        .social-proof-img-box {
-          height: 185px;
         }
 
         .btn-learn-more {
@@ -933,6 +949,10 @@ header {
           height: 160px;
         }
 
+        .our-partner-logo-img {
+          max-width: 195px;
+        }
+
         /*contact-us*/
         
         .contact-us-header > h2 {
@@ -1029,6 +1049,20 @@ header {
             font-size: 1.7rem;
         }
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 330px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 330px;
+        }
+
+        .social-proof-img-box {
+          height: 150px;  
+        }
+
 
 
         /*LG Nexus 5 (portrait)*/
@@ -1063,6 +1097,20 @@ header {
             font-size: 1.5rem;
         }
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 350px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 350px;
+        }
+
+        .social-proof-img-box {
+          height: 150px;  
+        }
+
         /*iPhone 6, 7, 8, X (portrait)*/
         @media (max-width: 667px){
 
@@ -1087,6 +1135,20 @@ header {
             font-size: 1.5rem;
         }
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 400px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 400px;
+        }
+
+        .social-proof-img-box {
+          height: 150px;  
+        }
+
         /*LG Nexus 4 (portrait)*/
         @media (max-width: 592px){
 
@@ -1108,6 +1170,20 @@ header {
 
         .header-cover-title {
             font-size: 1.7rem;
+        }
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 400px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 400px;
+        }
+
+        .social-proof-img-box {
+          height: 150px;  
         }
 
         /*iPhone 6 Plus (portrait)*/
@@ -1136,8 +1212,27 @@ header {
           height: 190px;
         }
 
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 450px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 450px;
+        }
+
+        .social-proof-img-box {
+          height: 190px;  
+        }
+
         .social-proof-ptext {
           min-height: 210px;
+        }
+
+        .btn-contact-us{
+          width: 50% !important;
         }
 
         /*iPhone 3G/iPhone 4 (landscape)*/
@@ -1160,6 +1255,20 @@ header {
 
         .header-cover-title {
             font-size: 1.5rem;
+        }
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 500px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 500px;
+        }
+
+        .social-proof-img-box {
+          height: 230px;  
         }
 
     }
@@ -1185,6 +1294,20 @@ header {
           height: 240px;
         }
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 550px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 550px;
+        }
+
+        .social-proof-img-box {
+          height: 240px;  
+        }
+
         .social-proof-ptext {
           min-height: 167px;
         }
@@ -1199,6 +1322,20 @@ header {
 
     @media (min-width: 568px){
 
+         .social-proof.proof1 > .social-proof-content {
+          max-width: 550px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 550px;
+        }
+
+        .social-proof-img-box {
+          height: 250px;  
+        }
+
         /*iPhone 5/iPhone SE (landscape)*/
         @media (orientation: landscape) {
 
@@ -1208,6 +1345,20 @@ header {
     /*bootstrap sm*/
     /*sm devices (landscape phones, 576px and up*/
     @media (min-width: 576px) {
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 550px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 550px;
+        }
+
+        .social-proof-img-box {
+          height: 250px;  
+        }
 
     }
 
@@ -1221,6 +1372,20 @@ header {
 
         .social-proof-video-box {
             height: 260px;
+        }
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 550px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 550px;
+        }
+
+        .social-proof-img-box {
+          height: 260px;  
         }
 
         .social-proof.proof2 {
@@ -1254,6 +1419,24 @@ header {
     
     @media (min-width: 601px){
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 550px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 550px;
+        }
+
+        .social-proof-img-box {
+          height: 270px;  
+        }
+
+        .btn-contact-us{
+          width: 40% !important;
+        }
+
         /*Asus Nexus 7 (portrait)*/
         @media (max-width: 906px){
 
@@ -1265,6 +1448,20 @@ header {
         /*xs-screen home*/
         .social-proof-video-box {
             height: 280px;
+        }
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 550px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 550px;
+        }
+
+        .social-proof-img-box {
+          height: 280px;  
         }
 
         /*Samsung Galaxy S3/S4 (landscape)*/
@@ -1286,9 +1483,27 @@ header {
    
     @media (min-width: 667px) {
 
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 600px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 600px;
+        }
+
+        .social-proof-img-box {
+          height: 250px;  
+        }
+
         /*xs-screen home*/
         .social-proof-video-box {
           height: 340px;
+        }
+
+        .btn-contact-us{
+          width: 35% !important;
         }
 
          /*iPhone 6, 7, 8, X (landscape)*/
@@ -1303,6 +1518,21 @@ header {
         .social-proof-video {
             max-width: 640px;
         }
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 700px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 700px;
+        }
+
+        .social-proof-img-box {
+          height: 250px;  
+        }
+        
 
         .social-pics-proof-pics-box-2 {
           width: 34.8%;
@@ -1332,6 +1562,39 @@ header {
     /*bootstrap md*/
     /*md devices (tablets, 768px and up)*/
     @media (min-width: 768px) {
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 700px;
+        }
+
+        .social-proof-container {
+          display: block;
+          margin: 0 auto;
+          max-width: 700px;
+        }
+
+        .social-proof-img-box {
+          height: 250px;
+        }
+
+        .our-partner-logo-box {
+          display: flex;
+        }
+
+        .our-partner-logo-box-content-3cols {
+          flex: 0 0 auto;
+          width: 33.333%;
+        }
+
+
+        .our-partner-logo-box-content-2cols {
+          flex: 0 0 auto;
+          width: 50%;
+        }
+
+        .our-partner-logo-img {
+          max-width: 70%;
+        }
 
         .btn-contact-us {
           width: 30% !important;
@@ -1445,12 +1708,17 @@ header {
           padding: 0;
         }
 
+        .social-proof-container{
+             display: flex;
+            max-width: 885px;
+        }
+        
         .social-proof-content-box {
           padding: 40px 20px;
         }
 
         .social-proof.proof1 > .social-proof-content {
-          max-width: 725px;
+          max-width: 885px;
         }
 
         .social-proof-title {
@@ -1469,6 +1737,7 @@ header {
         }
 
         .social-proof-content-2cols {
+          flex: 0 0 auto;  
           width: 50%;
           padding: 0 20px;
         }
@@ -1557,7 +1826,7 @@ header {
         }
 
         .social-pics-proof-pics-box-1 {
-          width: 69.7%;
+          width: 64.5%;
         }
 
         .social-proof-img-2 {
@@ -1611,13 +1880,15 @@ header {
           font-size: 1.2rem;
         }
 
-        .our-partner-logo-box {
-          display: block;
+        .our-partner-logo-box-content-3cols {
+          flex: 0 0 auto;
+          width: 33.333%;
         }
 
-        .our-partner-logo-box-content-2cols, .our-partner-logo-box-content-3cols {
-          flex: unset;
-          width: 100%;
+
+        .our-partner-logo-box-content-2cols {
+          flex: 0 0 auto;
+          width: 50%;
         }
 
         .our-partner-logo-img-box {
@@ -1668,7 +1939,7 @@ header {
         }
 
         .footer-copyright {
-          display: block;
+          display: flex;
           font-size: .55rem;
           text-align: center;
           margin-bottom: 2.5rem;
@@ -1676,8 +1947,8 @@ header {
 
         ul.footer-copyright > li {
             margin-top: .5rem;
-            margin-right: 2rem;
-            margin-left: 2rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
         }
 
 
@@ -1691,6 +1962,14 @@ header {
         /*lg-screen navbar*/
         #repowerenergy-navMenuCollapse > ul > li.nav-item > a{
             font-size: .78rem;
+        }
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 885px;
+        }
+
+        .social-proof-container{
+            max-width: 945px;
         }
 
         .social-pics-proof-pics-box-1 {
@@ -1713,6 +1992,14 @@ header {
 
     
     @media (min-width: 1112px){
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 995px;
+        }
+
+        .social-proof-container{
+            max-width: 995px;
+        }
 
         /*iPad Pro 10 (landscape)*/
         @media (orientation: landscape){
@@ -1753,6 +2040,14 @@ header {
         /*social-proof*/
         .social-proof {
           padding: 0;
+        }
+
+        .social-proof.proof1 > .social-proof-content {
+           max-width: 1087px;
+        }
+
+        .social-proof-container{
+           max-width: 1087px;
         }
 
         .social-proof-content-box {
@@ -1934,12 +2229,18 @@ header {
         }
 
         .our-partner-logo-box {
-          display: block;
+          display: flex;
         }
 
-        .our-partner-logo-box-content-2cols, .our-partner-logo-box-content-3cols {
-          flex: unset;
-          width: 100%;
+         .our-partner-logo-box-content-3cols {
+          flex: 0 0 auto;
+          width: 33.333%;
+        }
+
+
+        .our-partner-logo-box-content-2cols {
+          flex: 0 0 auto;
+          width: 50%;
         }
 
         .our-partner-logo-img-box {
@@ -1990,22 +2291,21 @@ header {
         }
 
         .footer-copyright {
-          display: block;
-          font-size: .55rem;
-          text-align: center;
-          margin-bottom: 2.5rem;
-        }
-
-        ul.footer-copyright > li {
-            margin-top: .5rem;
-            margin-right: 2rem;
-            margin-left: 2rem;
+          font-size: .7rem;
         }
 
     }
 
      /*HD laptops*/
     @media (min-width: 1366px){
+
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 1115px;
+        }
+
+        .social-proof-container {
+          max-width: 1155px;
+        }
 
         .social-proof-content.left .social-proof-ptext{
             min-height: 250px;
@@ -2075,6 +2375,17 @@ header {
     /*xxl devices (large desktops, 1400px and up)*/
     @media (min-width: 1400px) {
         
+        .social-proof.proof1 > .social-proof-content {
+          max-width: 1237px;
+        }
+
+        .social-proof-container {
+          max-width: 1237px;
+        }
+
+        .social-proof-img-box {
+          height: 212px;
+        }
 
         .social-proof-content.left .social-proof-ptext{
             min-height: 250px;
