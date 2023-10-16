@@ -781,6 +781,20 @@ header {
         #repowerenergy-navMenuCollapse > ul > li.nav-item > div{
             font-size: .9rem;
         }
+
+        .about-us-submenu{
+            width: 100%;
+            background: rgba(255,255,255,.4);
+            --bs-dropdown-border-width: 0 !important;
+        }
+
+        .about-us-submenu::before {
+          top: 54px;
+        }
+
+        .about-us-submenu > ul {
+          font-weight: normal;
+        }
   
         /*xs-screen home*/
         /*head-cover*/
@@ -1707,7 +1721,6 @@ header {
             display: inline-block;
         }
 
-        /*lg-screen navbar*/
         #repowerenergy-navMenuCollapse > ul > li.nav-item > a {
           font-size: .75rem;
           font-weight: 600;
@@ -1719,6 +1732,20 @@ header {
 
         .repowerenergy-brand {
           max-width: 200.08px;
+        }
+
+        .about-us-submenu{
+            width: 190px;
+            background: rgba(255,255,255,1);
+        }
+
+        .about-us-submenu::before {
+          top: 0;
+        }
+
+        .about-us-submenu > ul {
+           font-weight: 600;
+           font-size: .7rem;
         }
 
         /*lg-screen main*/
@@ -2053,6 +2080,10 @@ header {
         #repowerenergy-navMenuCollapse > ul > li.nav-item > a{
             font-size: 1rem;
             font-weight: 600;
+        }
+
+        .about-us-submenu > ul {
+           font-size: .8rem;
         }
 
         /*lg-screen main*/
