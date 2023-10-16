@@ -198,6 +198,7 @@ header {
     --bs-navbar-toggler-focus-width: 0;
 }
 
+
 #repowerenergy-navMenuCollapse > ul{
     list-style: none;
     padding-left: 0;
@@ -228,8 +229,37 @@ header {
     text-shadow: 2px 7px 5px rgba(0,0,0,0.1), 0px -4px 10px rgba(255,255,255,.1);
 }
 
+.nav-item.about-us{
+    position: relative;
+}
+
+.about-us-submenu{
+    position: absolute;
+    display: none;
+    background: #fff;
+    width: 195px;
+    left: 12px;
+}
+
+.about-us-submenu:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background: #157A6E;
+    height: .2rem;
+    width: 5rem;
+    margin: 0 auto;
+   
+}
  
- 
+.about-us-submenu > ul{
+    list-style: none;
+    padding-left: 0;
+    font-weight: 600;
+    text-shadow: unset;
+}
 
 /*---------------/ Header /----------------*/
 .header-cover {

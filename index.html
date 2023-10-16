@@ -44,22 +44,36 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="index.html">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item about-us">
                       <a class="nav-link">About Us <i class="fa-solid fa-chevron-down"></i></a>
+                      <div class="about-us-submenu">
+                        <ul>
+                          <li class="nav-item">
+                              <a class="nav-link">Company Profile</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link">Board of Directors</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link">Key Officers</a>
+                          </li>
+                        </ul>
+                      </div>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link">Governance <i class="fa-solid fa-chevron-down"></i></a>
+                      <a class="nav-link">Governance </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link">Our Locations <i class="fa-solid fa-chevron-down"></i></a>
+                      <a class="nav-link">Our Locations </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link">Investor Relations <i class="fa-solid fa-chevron-down"></i></a>
+                      <a class="nav-link">Investor Relations</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link">Contact Us <i class="fa-solid fa-chevron-down"></i></a>
+                      <a class="nav-link">Contact Us </a>
                   </li>
               </ul>
+
           </div>
 
          
@@ -361,8 +375,26 @@
     <script>
       $(function(){
         document.getElementById("social-proof-video-1").controls = false;
-      });
 
+        $(document.body).on("click",".nav-item.about-us",function(){
+          $(".about-us-submenu").toggle();
+        });
+
+        $(document.body).on("click",function(e){
+
+          const submenu = $(".about-us-submenu");
+          console.log(submenu.length);
+          if(submenu.length > 0){
+            if(!submenu.is(e.target) &&  
+                submenu.has(e.target).length === 0) { 
+                console.log(e.target);
+                //submenu.css("display","none"); 
+            }
+          }
+
+        });
+
+      });
     </script>
 		
 	
