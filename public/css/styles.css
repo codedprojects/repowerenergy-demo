@@ -231,6 +231,7 @@ header {
 
 .nav-item.about-us{
     position: relative;
+
 }
 
 .about-us-submenu{
@@ -238,7 +239,9 @@ header {
     display: none;
     background: #fff;
     width: 195px;
-    left: 12px;
+    top: 2.5rem;
+    left: 12px !important; 
+     --bs-dropdown-border-radius: 0;
 }
 
 .about-us-submenu:before{
